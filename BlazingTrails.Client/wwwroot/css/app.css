@@ -1,7 +1,7 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
 :root {
-    #A --brand: #448922;
+    --brand: #448922;
     --brand-hover: #5da030;
 }
 
@@ -21,7 +21,7 @@ a {
 
 .navbar {
     border-bottom: 2px solid var(--brand);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 5%, [CA]rgba(255,255,255,0) 100%), url("../images/navbar-bg.jpg") no-repeat [CA]center;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(255,255,255,0) 100%), url("../images/navbar-bg.jpg") no-repeat center;
     background-size: cover;
 }
 
@@ -70,3 +70,4 @@ a {
         right: 0.75rem;
         top: 0.5rem;
     }
+
